@@ -1,0 +1,298 @@
+/* Text Styles */
+body{
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/* primary color orange tai ekta class kore nibo. */
+.text-primary{
+    color: #FD6E0A;
+
+}
+
+/* download button gap */
+
+#downloadbtn{
+    margin-right: 30px;
+}
+
+.button-primary{
+    border-radius: 5px;
+    color: white;
+    background: #FD6E0A;
+    border: 0;
+    padding: 16px 35px;
+    font-size: 20px;
+    font-weight: 700;
+
+
+}
+
+/* nav related styles. display: flex; = inline hoye jay */
+
+nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin: 0px 200px;
+}
+
+.nav-title{
+    color: var(--Dark-01, #181818);
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+
+
+}
+
+nav > ul{
+display: flex;
+align-items: center;
+}
+
+nav li{
+    list-style: none;
+ margin-right: 51px;
+}
+
+nav a{
+text-decoration: none;
+color: #474747;
+
+}
+
+/* Header related styles. style e bg img add korte - bg-image: url(../assets/images/header_bg.png); */
+header{
+background-color: white;
+background-image: url(../assets/images/header_bg.png);
+background-repeat: no-repeat;
+background-position: bottom right;
+
+}
+
+/* for banner styles. picture er jonno top-right-bottom-left */
+
+.banner{
+padding: 30px 30px 0px 150px ;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.banner-welcome{
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 45px;
+    
+    font-weight: 600;
+  
+    margin-bottom: 0px;
+}
+
+
+.banner-title{
+    color: #181818;
+
+    font-size: 85px;
+  
+    font-weight: 700;
+ 
+margin-top: 5px;
+margin-bottom: 20px;
+}
+
+.banner .profile{
+width: 500px;
+}
+
+.banner-p{
+margin-bottom: 30px;
+max-width: 500px;
+
+}
+
+/* Main Section Styles */
+
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+
+}
+.section-title{
+    margin-top: 130px;
+}
+
+/* About section styles */
+
+.about{
+  padding: 130px ;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin-top: 130px;
+
+}
+
+.info-container{
+    display: flex;
+    margin-right: 30px;
+    justify-content: space-around;
+
+
+}
+
+.about-info{
+    text-align: center;
+
+}
+
+.about-description{
+    text-align: center;
+
+}
+/* Skill Styles */
+
+#what-i-do-description{
+    padding: 30px 115px;
+}
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skills{
+    padding: 30px;
+border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skills-description{
+    color: #757575;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px; 
+}
+
+
+
+.section-title{
+
+    color: #181818;
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+}
+
+.section-description{
+    color: #757575;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; 
+}
+
+/* A summary of My Resume */
+.column-title{
+    color:#474747;
+font-size: 30px;
+font-weight: 700;
+}
+
+.resume-container{
+    display: flex;
+  
+}
+.resume-item{
+    padding-right: 70px;
+}
+
+.resume-title{
+    color:#474747;
+font-size: 25px;
+font-weight: 700;
+}
+
+
+.resume-institute{
+    color:#757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.resume-description{
+    color: #757575;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+}
+
+/* Add space between horizontal lines 
+hr {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+*/
+
+#dn20{
+    margin: 0 auto;
+}
+
+.download-cv{
+    margin-top: 50px;
+    text-align: center;
+}
+
+footer{
+    margin-top: 130px;
+    gap: 130px;
+    padding: 130px 230px;
+    display: flex;
+    background: #FFF8F3;
+    text-align: center;
+}
+
+.social-media a{
+    margin-right: 30px;
+}
+
+footer.p{
+    color:#474747;
+
+font-size: 16px;
+
+font-weight: 400;
+line-height: 28px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+.social-media{
+    margin-top: 30px;
+}
+
+.message{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    
+}
+
+.contact input[type="text"], input[type="email"],textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 30px;
+    border: none;
+    border-radius: 5px;
+    background:#FFF;
+
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; 
+    width: 100%;
+}
